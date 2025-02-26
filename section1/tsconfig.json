@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // 컴파일된 js 버전 옵션.
+    "module": "ESNext", // common js, ES module 중에서 결정
+    "outDir": "dist", // 컴파일 결과 js 폴더 지정
+    "strict": true, // 타입을 엄격하게 검사하게 됌.
+    "moduleDetection": "force",
+    "skipLibCheck": true // 타입정의파일인 .d.ts 확장자의 타입 검사를 생략하는 옵션.
+  },
+  "include": ["src"] // 컴파일할 ts파일 경로
+}
